@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeedCodeProblems", "LeedCodeProblems\LeedCodeProblems.csproj", "{2D930B38-6A23-422C-B517-6B8EC11F7ED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D930B38-6A23-422C-B517-6B8EC11F7ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D930B38-6A23-422C-B517-6B8EC11F7ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D930B38-6A23-422C-B517-6B8EC11F7ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D930B38-6A23-422C-B517-6B8EC11F7ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13C9BE27-57AD-4268-BBE9-F3A892102EA0}
+	EndGlobalSection
+EndGlobal
