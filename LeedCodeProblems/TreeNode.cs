@@ -8,7 +8,7 @@
 
         private static List<int> countLvl = [];
 
-        public static TreeNode? CreateToArray(List<int?> arr, int deep = 0)
+        public static TreeNode? CreateFromArray(List<int?> arr, int deep = 0)
         {
             if (countLvl.Count == deep)
             {
@@ -30,8 +30,8 @@
             TreeNode tn = new();
             tn.val = arr[index]!.Value;
 
-            tn.left = CreateToArray(arr, deep + 1);
-            tn.right = CreateToArray(arr, deep + 1);
+            tn.left = CreateFromArray(arr, deep + 1);
+            tn.right = CreateFromArray(arr, deep + 1);
 
             if (tn.left != null && tn.right != null)
             {

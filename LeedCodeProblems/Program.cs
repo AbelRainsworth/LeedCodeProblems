@@ -1,7 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 
 
-//BenchmarkDotNet.Running.BenchmarkRunner.Run<Test.TestRun>();
+//BenchmarkDotNet.Running.BenchmarkRunner.Run<LeedCodeProblems.BenchmarkRun>();
 
 namespace LeedCodeProblems
 {
@@ -15,7 +15,6 @@ namespace LeedCodeProblems
         }
     }
 
-
     public class Run
     {
         public static void Main()
@@ -23,7 +22,6 @@ namespace LeedCodeProblems
             Solution solution = new();
         }
     }
-
 
     public class Solution
     {
